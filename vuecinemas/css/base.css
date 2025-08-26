@@ -63,3 +63,18 @@ border-radius: 4px;
     background: var(--black);
   }
 }
+
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title__h {
+ font-family: var(--CR);
+ font-weight: 400;
+ font-size: 36px;
+ text-transform: capitalize;
+ padding-bottom: 18px;
+ border-bottom: 2px solid var(--orange);
+ color: var(--orange);
+}

@@ -17,7 +17,6 @@
   align-items: center;
   gap: 38px;
   justify-content: space-between;
-  border: 2px solid red;
   padding: 53px 15px 18px;
   border-radius: 6px;
   position: relative;
@@ -51,7 +50,6 @@
     rgba(0, 0, 0, 0.71) 51.04%, 
     rgba(7, 15, 25, 0.8) 100%);
 }
-
 .films__card-top {
     display: flex;
     align-items: center;
@@ -60,14 +58,14 @@
 }
 
 
-.films__card-top_icon {
+.films___card-top_icon {
     font-size: 40px;
     color: var(--white);
 }
 
 .films__card-top_time {
     padding: 6px 28px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     background: #070f1933;
     border-radius: 10px;
     font-family: var(--MR);
@@ -79,9 +77,9 @@
 
 .films__card-bottom {
     display: flex;
-    align-items: center;
     flex-direction: column;
     gap: 12px;
+    align-items: center;
 }
 .films__card-bottom_h {
    font-family: var(--MR);
@@ -90,9 +88,22 @@
    text-align: center;
    text-transform: capitalize;
    display: -webkit-box;    
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.films__card-bottom_p {
+font-family: var(--RR);
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: var(--white);
+display: -webkit-box;    
    -webkit-line-clamp: 7;
    -webkit-box-orient: vertical;
    overflow: hidden;
+
 }
 
 

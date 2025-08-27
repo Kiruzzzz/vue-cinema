@@ -90,7 +90,7 @@
    text-align: center;
    text-transform: capitalize;
    display: -webkit-box;    
-   -webkit-line-clamp: 1;
+   -webkit-line-clamp: 7;
    -webkit-box-orient: vertical;
    overflow: hidden;
 }
